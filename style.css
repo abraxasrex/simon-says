@@ -1,0 +1,141 @@
+
+body{
+
+}
+.circle_out{
+  position:relative;
+  height:200px;
+  margin-top:50px;
+  margin-bottom:50px;
+  border-radius:100%;
+}
+
+button{
+  border-radius:25%;
+  height:25%;
+  width:37.5%;
+  background-color:#4C4C4C;
+  font-size:18px;
+  margin-bottom:5px;
+}
+#g{
+  border-style:solid;
+  border-color:black;
+  border-top-left-radius:100%;
+background-color:green;
+  height:50%;
+  width:50%;
+  margin:0;
+ position:absolute;
+
+}
+#r{
+  height:50%;
+  width:50%;
+  margin:0;
+  border-style:solid;
+  border-color:black;
+  border-top-right-radius:100%;
+  background-color:red;
+ position:absolute;
+  left:50%;
+}
+.round_display{
+  text-align:center;
+  background-color:black;
+  color:white;
+  border-radius:25px;
+  height:25%;
+  width:37.5%;
+  margin:0 auto;
+  line-height:37.5px;
+  vertical-align:middle;
+  font-size:20px;
+}
+#y{
+  height:50%;
+  width:50%;
+  border-style:solid;
+  border-color:black;
+  border-bottom-left-radius:100%;
+  background-color:yellow;
+  position:absolute;
+  top:50%;
+}
+#b{
+
+  height:50%;
+  width:50%;
+  border-style:solid;
+  border-color:black;
+  border-bottom-right-radius:100%;
+  background-color:blue;
+  position:absolute;
+  top:50%;
+  left:50%;
+}
+.circle_in{
+  border-style:solid;
+  border-color:black;
+  height:50%;
+  width:50%;
+  border-radius:100px;
+  background-color:grey;
+  margin:0 auto;
+  position:absolute;
+   top:25.9%;
+  left:25.9%;
+  text-align:center;
+  font-family:Lobster;
+}
+outer_circle{
+  background-color:black;
+  border-style:solid;
+  border-radius:50%;
+  height:300px;
+}
+
+.lite_g{
+  background-color:#66FF66;
+  -webkit-box-shadow:0 0 20px white;
+    -moz-box-shadow: 0 0 20px white;
+    box-shadow:0 0 20px white;
+}
+
+.lite_r{
+  background-color:#FF5050;
+  -webkit-box-shadow:0 0 20px white;
+    -moz-box-shadow: 0 0 20px white;
+    box-shadow:0 0 20px white;
+}
+
+.lite_y{
+  background-color:#FFFF99;
+  -webkit-box-shadow:0 0 20px white;
+    -moz-box-shadow: 0 0 20px white;
+    box-shadow:0 0 20px white;
+}
+
+.lite_b{
+  background-color:#33CCFF;
+  -webkit-box-shadow:0 0 20px white;
+    -moz-box-shadow: 0 0 20px white;
+    box-shadow:0 0 20px white;
+}
+
+.bg_fix{
+   height:100%
+  -webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+  background-size: cover;
+  background-image:url('http://designreflect.com/wp-content/uploads/2012/09/wooden-textures/Wooden-Background.jpg');
+
+}
+#strict{
+  display:none;
+}
+
+.foot{
+  color:white;
+}
